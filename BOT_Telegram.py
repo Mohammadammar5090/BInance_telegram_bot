@@ -3,7 +3,7 @@ from telebot import types
 import random
 from telegram import ParseMode
 import BINANCE
-TOKEN = '5885668738:AAHVbHJXLUaHIfmlGm3_U4N0eQ5lhtxtNyo'
+TOKEN = ' telegram bot token '
 
 #Init the  bot with token
 bot = telebot.TeleBot(TOKEN)
@@ -476,88 +476,3 @@ bot.infinity_polling()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    # amount=['5% =(money)',       
-    #             '10% =(money)',
-    #                 '25% =(money)',
-    #                     '50% =(money)',
-    #                         '60% =(money)',
-    #                             '75% =(money)', 
-    #                                 '90% =(money)',
-    #                                     '100% =(money)']
-
-
-
-
-
-
-
-
-
-# if message.text=="Make market buy":
-
-#     amount=['5% =(money)',       
-#             '10% =(money)',
-#             '25% =(money)',
-#             '50% =(money)',
-#             '60% =(money)',
-#             '75% =(money)', 
-#             '90% =(money)',
-#             '100% =(money)']
-
-
-#     get_button = types.ReplyKeyboardMarkup(row_width=2,one_time_keyboard=True)
-#     markup_amount = generate_buttons(amount,get_button)
-
-#     message = bot.reply_to(message, "choose the amount:\nyou have :\n free USDT : (nameCoin,free)\nBUSD : (nameCoin,free) ", reply_markup=markup_amount)
-
-
-
-#     # message2 = bot.reply_to(message,"Enter the coin you want to buy like 'BNB'")
-                        
-#     # bot.register_next_step_handler(message,make_buy)
-
-# if message.text=="Market sell order": #  the coins that we will sell  are different
-
-# message = bot.reply_to(message, "choose the amount:\n  your free coin is   (nameCoin,free)  (nameCoin,free) ", reply_markup=markup_amount)
-# bot.register_next_step_handler(message,make_sell)
-
-# if message.text=="Make market buy":
-
-#     amount=['5% =(money)',       
-#             '10% =(money)',
-#             '25% =(money)',
-#             '50% =(money)',
-#             '60% =(money)',
-#             '75% =(money)', 
-#             '90% =(money)',
-#             '100% =(money)']
-
-
-#     get_button = types.ReplyKeyboardMarkup(row_width=2,one_time_keyboard=True)
-#     markup_amount = generate_buttons(amount,get_button)
-
-#     message = bot.reply_to(message, "choose the amount:\nyou have :\n free USDT : (nameCoin,free)\nBUSD : (nameCoin,free) ", reply_markup=markup_amount)
-
-
-
-#     # message2 = bot.reply_to(message,"Enter the coin you want to buy like 'BNB'")
-                        
-#     # bot.register_next_step_handler(message,make_buy)
-
-# if message.text=="Market sell order": #  the coins that we will sell  are different
-
-# message = bot.reply_to(message, "choose the amount:\n  your free coin is   (nameCoin,free)  (nameCoin,free) ", reply_markup=markup_amount)
-# bot.register_next_step_handler(message,make_sell)
